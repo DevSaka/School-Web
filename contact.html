@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigation Bar -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><img src="school_logo2.png" alt="go">
+                <h1 class="icon-box">Bright Future Academy <p>Excellence in Education</p></h1>
+            </div>
+
+               <!--Hamburger Checkbox-->
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <hr class="divider">
+
+                <!--Navigation Links-->
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admission.html">Admissions</a></li>
+                    <li><a href="portal.html">Portal</a></li>
+                    <li><a href="news.html">New & Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a href="" class="btn get-started-apply">Apply Now</a>
+        </div>
+    </header>
+
+
+    <section class="portal-hero-section">
+        <h2>Contact Us</h2>
+        <p>We're here to help! Get in touch with us for admissions, general inquiries, or to schedule a visit to our campus.</p>
+    </section>
+
+    <section class="contact-info-section">
+        <div class="contact-info-container">
+            <div class="contact-info-box">
+                <i class="fa fa-location"></i>
+                <h2>Location</h2>
+                <p>123 Education Avenue</p>
+                <p>Victoria Island, Lagos</p>
+                <p>Nigeria</p>
+                <a href="" class="btn info-box-button">Get Directions</a>
+            </div>
+
+            <div class="contact-info-box">
+                <i class="fa fa-phone"></i>
+                <h2>Phone Number</h2>
+                <p>+234 8155812810</p>
+                <p>+234 9036441194</p>
+                <p>Emergency: +234 7073282120</p>
+                <a href="" class="btn info-box-button">Call Now</a>
+            </div>
+
+            <div class="contact-info-box">
+                <i class="fa fa-envelope"></i>
+                <h2>Email Addresses</h2>
+                <p>info@brightfutureacademy.edu.ng</p>
+                <p>admissions@brightfutureacademy.com</p>
+                <p>principal@brightfutureacademy.net</p>
+                <a href="" class="btn info-box-button">Send Email</a>
+            </div>
+
+            <div class="contact-info-box">
+                <i class="fa fa-clock"></i>
+                <h2>Office Hours</h2>
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday: 9:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us-section-container">
+        <!-- Send Us Message -->
+        <div class="contact-us-message">
+            <i class="fa fa-message"></i>
+            <h2 class="contact-us-message-header">Send Us a Message</h2>
+            <p>Fill out this form and we'll get back to you within 24 hours during business days.</p>
+            <form action="#"  method="post" class="contact-us-message-form">
+                <div class="form-group">
+                    <div class="name-fields">
+                        <div class="name-field">
+                        <label for="firstname">First Name *</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="name-field">
+                        <label for="lastname">Last Name *</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Enter your last name" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                
+                 <div class="form-group">
+                    <label for="department">Department</label>
+                    <select id="department" name="department">
+                    <option value="">Select department</option>
+                    <option>General Inquiry</option>
+                    <option>Admissions</option>
+                    <option>Academic Affairs</option>
+                    <option>Finance/Bursary</option>
+                    <option>IT Support</option>
+                    <option>Principals Office</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter message subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here...."></textarea>
+                </div>
+                <button class="form-actions" type="submit">Send Message</button>
+            </form>
+        </div>       
+
+
+        
+        <!-- Quick Actions -->
+        <div class="quick-actions-section">
+           <div class="quick-actions-container">
+                <div class="quick-actions-header-container"><i class="fa fa-users"></i><h2>Quick Actions</h2></div>
+                    <div class="quick-action-box">
+                        <i class="fa fa-file"></i>
+                        <a href="#" class="btn quick-action-button">Schedule a Campus Tour</a>
+                    </div>
+
+                    <div class="quick-action-box">
+                        <i class="fa fa-message"></i>
+                        <a href="#" class="btn quick-action-button">Book Parent Meeting</a>
+                    </div>
+
+                    <div class="quick-action-box">
+                        <i class="fa fa-phone"></i>
+                        <a href="#" class="btn quick-action-button">Request Brochure</a>
+                    </div>
+            </div>
+
+        <div class="department-contacts">
+            <h2>Department Contacts</h2>
+            <p>Direct contact information for specific departments</p>
+
+            <div class="department-contact-row">
+            <span>General Inquiry</span>
+            <a href="mailto:info@brightfutureacademy.edu.ng">info@brightfutureacademy.edu.ng</a>
+            </div>
+
+            <div class="department-contact-row">
+            <span>Admissions</span>
+            <a href="mailto:admissions@brightfutureacademy.edu.ng">admissions@brightfutureacademy.edu.ng</a>
+            </div>
+
+            <div class="department-contact-row">
+            <span>Academic Affairs</span>
+            <a href="mailto:academics@brightfutureacademy.edu.ng">academics@brightfutureacademy.edu.ng</a>
+            </div>
+
+            <div class="department-contact-row">
+            <span>Finance/Bursary</span>
+            <a href="mailto:finance@brightfutureacademy.edu.ng">finance@brightfutureacademy.edu.ng</a>
+            </div>
+
+            <div class="department-contact-row">
+            <span>IT Support</span>
+            <a href="mailto:support@brightfutureacademy.edu.ng">support@brightfutureacademy.edu.ng</a>
+            </div>
+
+            <div class="department-contact-row">
+            <span>Principal's Office</span>
+            <a href="mailto:principal@brightfutureacademy.edu.ng">principal@brightfutureacademy.edu.ng</a>
+            </div>
+        </div>    
+
+            <div class="emergency-contact">
+                <h2>Emergency Contact</h2>
+                <p>For urgent matters during school hours or school emergencies:</p>
+                <a href="" class="btn"><i class="fa fa-phone"></i>+234 8155812810</a>
+                <p class="available-only">Available 24/7 for emergencies only</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="map-section">
+            <h2>Find Us</h2>
+            <p>Located in the heart of Victoria Island, Lagos</p>
+                <div class="map-container">
+                    <i class="fa fa-location direction-icon"></i>
+                    <h4>Interactive Map</h4>
+                    <p>123 Education Avenue, Victoria Island, Lagos, Nigeria</p>
+                    <div class="direction-buttons">
+                    <a href="" class="btn directions-first"><i class="fa fa-location"></i>Get Directions</a>
+                    <a href="" class="btn directions-last">View on Google Maps</a>
+                    </div>
+                </div>
+        
+        <div class="map-directions-container">       
+            <div class="map-directions">
+                <h3>By Car</h3>
+                <p>Parking available on campus. Follow Victoria Island road signs.</p>
+            </div>
+
+            <div class="map-directions">   
+                <h3>Public Transport</h3>
+                <p>BRT and danfo buses available. Nearest stop: Education Avenue.</p>
+            </div>
+
+            <div class="map-directions">
+                <h3>Landmarks</h3>
+                <p>Near Victoria Island Shopping Mall and Central Bank.</p>
+            </div>
+        </div>     
+    </section>
+
+
+
+     <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Logo and Description -->
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="school_logo2.png" alt="go">
+                <h2>Bright Future Academy</h2>
+                </div>
+                <p>Nurturing minds, building futures. Excellence in education since our establishment.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">News & Events</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section contact-info">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Education Avenue, Victoria Island, Lagos, Nigeria</p>
+                <p><i class="fas fa-phone"></i> +234 901 234 5678</p>
+                <p><i class="fas fa-envelope"></i> info@brightfutureacademy.edu.ng</p>
+            </div>
+
+            <!-- School Hours -->
+            <div class="footer-section">
+                <h3>School Hours</h3>
+                <p><strong>Monday - Friday</strong><br> 7:30 AM - 3:30 PM</p>
+                <p><strong>Administrative Office</strong><br> 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+
+        <hr>
+        <p class="footer-bottom">&copy; 2024 Bright Future Academy. All rights reserved.</p>
+    </footer>
+
+      <!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
